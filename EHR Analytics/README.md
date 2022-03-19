@@ -6,7 +6,7 @@ This notebook is to explore and validate the same idea. We work with the [Biomec
 The task involves classifying patients as belonging to one out of three categories: Normal (100 patients), Disk Hernia (60 patients) or Spondylolisthesis (150 patients).
 
 # TLDR
-Please see [this link]() for demo of EHR Analytics  
+Please see [this link]() for demo of EHR Analytics. 
 
 # Dataset
 Each patient is represented in the data set by six biomechanical attributes derived from the shape and orientation of the pelvis and lumbar spine.
@@ -28,6 +28,7 @@ Train.ipynb: To train the ML Model.
 Predict.py: To test on external data.
 model.pkl: State of model saved in pickle format for testing purposes.
 scaler.pkl: State of data preprocessor saved in pickle format for testing purpose
+column_3C_weka.csv: Dataset in csv format.
 
 # Training
 To train the machine learning model. Please perform Restart & Run All on Train.ipynb. This step creates two pickle files. Namely,

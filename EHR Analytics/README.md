@@ -21,7 +21,7 @@ Each patient is represented in the data set by six biomechanical attributes deri
 |Pelvic Radius|The distance from the hip axis to the posterior-superior corner of the S1 endplate.| Normal Range falls in 133.0±9.6 mm|
 |Grade of Spondylolisthesis|Spondylolisthesis is a spinal disorder in which a bone (vertebra) slips forward onto the bone below it.| The seriousness of the disorder is marked by grade values
 
-![Image 1](bone.jpg)
+<img src="bone.jpg" alt="drawing" width="200"/>
 
 # Files
 Train.ipynb: To train the ML Model.

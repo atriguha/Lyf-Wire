@@ -23,6 +23,12 @@ Each patient is represented in the data set by six biomechanical attributes deri
 
 ![Image 1](bone.jpg)
 
+# Files
+Train.ipynb: To train the ML Model.
+Predict.py: To test on external data.
+model.pkl: State of model saved in pickle format for testing purposes.
+scaler.pkl: State of data preprocessor saved in pickle format for testing purpose
+
 # Training
 To train the machine learning model. Please perform Restart & Run All on Train.ipynb. This step creates two pickle files. Namely,
  - model.pkl

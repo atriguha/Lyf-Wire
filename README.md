@@ -38,11 +38,13 @@ If we increase the force beyond a certain threshold, the led light will start gl
 
 
 **See Simulation of MPU-6065** [here](https://wokwi.com/projects/305937156771152449)
-![1234](https://user-images.githubusercontent.com/74849719/159123991-edac2640-30d9-487a-b103-a0edd946c2c8.JPG)
+
 
 ```
 Upload the files given in the repo to wokwi in order to simulate.
 ```
+
+![1234](https://user-images.githubusercontent.com/74849719/159123991-edac2640-30d9-487a-b103-a0edd946c2c8.JPG)
 
 This sensor gives the values of acceleration and rotation in three different axes. Alongside it also has a temperature sensor. It plots a graph of acceleration and rotation vs time and the data can be transmitted to cloud via wifi module.
 

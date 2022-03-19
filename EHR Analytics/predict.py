@@ -1,14 +1,12 @@
 import pickle
 
-def predict(pelvic_incidence, pelvic_tilt, lumbar_lordosis_angle,
-            sacral_slope, pelvic_radius, degree_spondylolisthesis):
-    model = pickle.load(open("model.sav", "rb"))
+def predict(inpt):
+    model = pickle.load(open("model.pkl", "rb"))
+    scaler = pickle.load(open("scaler.pkl", "rb"))
     diagnosis = ["Hernia", "Spondylolisthesis", "Normal"]
-    pred = model.predict([[pelvic_incidence, pelvic_tilt, lumbar_lordosis_angle,
-                sacral_slope, pelvic_radius, degree_spondylolisthesis]])
+    pred = model.predict([inpt])
     result = map(lambda x: diagnosis[x], pred)
     print(list(result))
-    # print(diagnosis[pred])
 
 if __name__ == "__main__":
     pelvic_incidence = float(input("Please Enter Pelvic Incidence Value of Patient: "))
@@ -17,5 +15,6 @@ if __name__ == "__main__":
     sacral_slope = float(input("Please Enter Sacral Slope Value of Patient: "))
     pelvic_radius = float(input("Please Enter Pelvic Radius Value of Patient: "))
     degree_spondylolisthesis = float(input("Please Enter Degree Spondylolisthesis Value of Patient: "))
-    predict(pelvic_incidence, pelvic_tilt, lumbar_lordosis_angle,
-                sacral_slope, pelvic_radius, degree_spondylolisthesis)
+    inpt = [pelvic_incidence, pelvic_tilt, lumbar_lordosis_angle,
+                sacral_slope, pelvic_radius, degree_spondylolisthesis]
+    predict(inpt)

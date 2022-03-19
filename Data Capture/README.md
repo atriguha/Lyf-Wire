@@ -1,8 +1,8 @@
 # Lyf-Wire
 
 # TLDR
-**See Demo of Force Sensor** [here](https://shrt.cx/qC5taD) <br>
-**See Simulation of MPU-6065** [here](https://wokwi.com/projects/305937156771152449)
+**See Demo of Data Capture** [here](https://drive.google.com/drive/folders/1xDhTunKQUTu8d5kz5YssLHg-e890eiMC?usp=sharing)
+
 
 # Getting Started
 
@@ -13,7 +13,9 @@ This repo contains the files for simulation of two sensors, namely Force sensor 
 
 We have used Tinkercad to simulate Force Sensor and workwi to simulate MPU 60501 module
 
-
+## Simulations
+**See Simulation of Force Sensor** [here](https://shrt.cx/qC5taD) <br>
+**See Simulation of MPU-6065** [here](https://wokwi.com/projects/305937156771152449)
 
 ## Description Of The Sensors
 

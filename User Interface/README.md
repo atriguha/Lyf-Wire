@@ -16,7 +16,8 @@ The landing page of Doctor's portal consists of:
  - Total Income  of the hospital.
  - Graphs related to administrative data of the hospital. 
  - The page is made user friendly and interactive with the help of graphs.
- - It offers a separate page for the list of appointments for a Doctor, clicking on any one of them will take us to their individual medical profile.
+ - It offers a separate page for the list of appointments for a Doctor, clicking on any one of them will take us to their individual medical profile.<br>
+<img src="doctor.jpeg" alt="Doctor Interface" width="600"/>
 
 ## Patient's Interface:
 The landing page of  Patient's portal will reveal the basic health information of the patient, like:
@@ -26,4 +27,10 @@ The landing page of  Patient's portal will reveal the basic health information o
  - Patients history of certain Biomarkers levels like Bp levels, Oxygen levels. 
  - The webpage also includes informative health related blogs, to keep the patients updated.
  - The most important feature is that , the patient can download his/her medical report(EHR) directly from our the page, and if interested can give the consent to share their data and earn medical reimbursements.
-   
+<img src="patient.jpeg" alt="Patient Interface" width="600"/>
+
+## Data Platform
+Data platform displays various databases with clients having the option to open and view contents. However, complete utility is provided after purchase along with public private key based authentication. <br>
+
+<img src="Database.jpeg" alt="Landing Data" width="600"/>
+<img src="data_2.jpeg" alt="Open" width="600"/>

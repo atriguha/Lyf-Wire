@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "mpu1", "top": 264.52, "left": 96.91, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:3.3V", "mpu1:VCC", "red", [ "v27", "h29" ] ],
+    [ "uno:GND.2", "mpu1:GND", "black", [ "v25", "h66" ] ],
+    [ "uno:A5", "mpu1:SCL", "darkorange", [ "v55", "h-105" ] ],
+    [ "uno:A4", "mpu1:SDA", "yellow", [ "v47", "h-95" ] ]
+  ],
+  "serialMonitor": { "display": "plotter" }
+}

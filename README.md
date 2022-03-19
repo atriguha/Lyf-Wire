@@ -27,7 +27,7 @@ MPU-6050 is a 6 axis motion tracking device generally used in smartphones and we
 ## Simulation
 **See Simulation of Force Sensor** [here](https://shrt.cx/qC5taD)
 
-[Circuit of the simulation](https://github.com/atriguha/Lyf-Wire/blob/main/force%20sensor/ckt.JPG)
+[Circuit of the simulation](ckt.JPG)
 
 ```
 The code for the simulation is given in the repo.

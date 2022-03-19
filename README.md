@@ -27,7 +27,7 @@ MPU-6050 is a 6 axis motion tracking device generally used in smartphones and we
 ## Simulation
 **See Simulation of Force Sensor** [here](https://shrt.cx/qC5taD)
 
-[Circuit of the simulation]![ckt](https://user-images.githubusercontent.com/74849719/159123948-974a8f50-81ae-4c7d-a293-d220533a53a4.JPG)
+![ckt](https://user-images.githubusercontent.com/74849719/159123948-974a8f50-81ae-4c7d-a293-d220533a53a4.JPG)
 
 
 ```
@@ -36,8 +36,9 @@ The code for the simulation is given in the repo.
 
 If we increase the force beyond a certain threshold, the led light will start glowing. This is a simple demonstration of force sensor. We can also get its electrical signal as output in the serial monitor, which varies from values 0 to 1023.
 
-**See Simulation of MPU-6065** [here](https://wokwi.com/projects/305937156771152449)
 
+**See Simulation of MPU-6065** [here](https://wokwi.com/projects/305937156771152449)
+![1234](https://user-images.githubusercontent.com/74849719/159123991-edac2640-30d9-487a-b103-a0edd946c2c8.JPG)
 
 ```
 Upload the files given in the repo to wokwi in order to simulate.

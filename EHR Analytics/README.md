@@ -6,7 +6,7 @@ This notebook is to explore and validate the same idea. We work with the [Biomec
 The task involves classifying patients as belonging to one out of three categories: Normal (100 patients), Disk Hernia (60 patients) or Spondylolisthesis (150 patients).
 
 # TLDR
-Please see [this link]() for demo of EHR Analytics. 
+Please see [this link](https://drive.google.com/file/d/1NmOIJEKCbb1FFBGuGqdCJSMEKLdiDAsp/view?usp=sharing) for demo of EHR Analytics. 
 
 # Dataset
 Each patient is represented in the data set by six biomechanical attributes derived from the shape and orientation of the pelvis and lumbar spine.

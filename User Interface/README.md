@@ -2,7 +2,7 @@
 Please see [this link](https://drive.google.com/file/d/1BGwfJbdotfvaTRuRbWlVtogNVZk1WWAZ/view?usp=sharing) for demo of User Interface. 
 
 # Interactive Prototype
-[EHR System](https://www.figma.com/file/z6L18EgYwrIR6M3zDlKyTl/Lyf-Wire-Web-1?node-id=1%3A2)
+[EHR System](https://www.figma.com/file/z6L18EgYwrIR6M3zDlKyTl/Lyf-Wire-Web-1?node-id=1%3A2) <br>
 [Database Platform](https://www.figma.com/file/n0ZCYSIElfc9WdKlbPCfAU/Database-pop?node-id=0%3A1)
 
 # Components
